@@ -11,7 +11,7 @@ Simple customer service chatbot that tracks customer packages.
 - Designed a conversation flowchart that would occur between the bot and user.
 - Incorporated input validation and error handling.
 - Utilizing mock input data to simulate package status (on time, delayed, lost)
-  note: each package tracking number will have 10 exactly digits, however if a package is either     delayed OR lost, they will have an additional index label as 'd' as delayed or 'l' as lost.. 
+  note: each package tracking number will have 10 exactly digits, however if a package is either     delayed OR lost, they will have an additional char labeled with 'D','d' as delayed or 'l','L' as   lost. This differentiation occurs at end of the package tracking number. 
 - Prioritizing clean code and comments explaining the purpose of specific functions.
 
 # BRIEF EXAMPLE:
